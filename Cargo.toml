@@ -1,7 +1,13 @@
 [package]
 name = "ld2410"
 version = "1.0.0"
-edition = "2021"
+authors = ["Cristian Lomagno <lomagno2003@gmail.com>"]
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/lomagno2003/ld2410"
+description = "Rust interface for LD2410 presence detection"
+keywords = ["ld2410", "mmwave"]
+categories = ["embedded", "hardware-support", "no-std"]
 
 [dependencies]
 embedded-io = "0.6.1"
